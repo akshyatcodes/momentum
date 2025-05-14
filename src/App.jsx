@@ -370,10 +370,10 @@ const handleDownloadPdf = async () => {
             </div>
       </main>
 
-      <div className="mt-8 p-4 bg-gray-800/80 backdrop-blur-sm text-white rounded-lg w-full max-w-5xl overflow-x-auto text-xs shadow-lg"> {/* Increased max-width for debug */}
-        <h3 className="font-semibold text-lg mb-2">Current Project Data (Debug):</h3>
-        <pre>{JSON.stringify(projectData, null, 2)}</pre>
-      </div>
+      {/* <div className="mt-8 p-4 bg-gray-800/80 backdrop-blur-sm text-white rounded-lg w-full max-w-5xl overflow-x-auto text-xs shadow-lg"> Increased max-width for debug */}
+        {/* <h3 className="font-semibold text-lg mb-2">Current Project Data (Debug):</h3> */}
+        {/* <pre>{JSON.stringify(projectData, null, 2)}</pre> */}
+      {/* </div> */}
     </div>
   );
 }
