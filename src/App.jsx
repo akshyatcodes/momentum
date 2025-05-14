@@ -374,6 +374,9 @@ const handleDownloadPdf = async () => {
         {/* <h3 className="font-semibold text-lg mb-2">Current Project Data (Debug):</h3> */}
         {/* <pre>{JSON.stringify(projectData, null, 2)}</pre> */}
       {/* </div> */}
+      <footer className="mt-10 sm:mt-12 w-full text-center py-3 sm:py-4 border-t border-gray-300/70 print:hidden">
+                <p className="text-xs text-gray-600">© {new Date().getFullYear()} Momentum Projections | Developed by Akshyat Sharma FCCA.</p>
+            </footer>
     </div>
   );
 }
