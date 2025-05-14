@@ -109,6 +109,7 @@ The application operates entirely on the client-side for this MVP, utilizing bro
 4.  Open your browser and navigate to the URL provided by Vite (usually `http://localhost:5173`).
 
 ## File Structure
+```
 momentum-launchpad/
 ├── public/ # Static assets (e.g., favicon.ico)
 ├── src/
@@ -131,7 +132,7 @@ momentum-launchpad/
 ├── package.json
 ├── README.md # This file
 └── vite.config.js # Vite configuration
-
+```
 
 ## Key Functionality Walkthrough
 
